@@ -1,0 +1,55 @@
+
+.calculator {
+    width: 50vw;
+    height: 62vh;
+    margin-inline: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px outset black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color:#c1c1bc ;
+}
+
+
+input[type="text"] {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons button {
+    width: 60px;
+    height: 50px;
+    font-size: 20px;
+    margin: 8px;
+    background-color: black;
+    color: #ccc;
+    border-radius: 8px;
+}
+.buttons{
+    margin-inline: auto;
+    width: 360px;
+}
+
+@media screen and (max-width:600px) {
+    .buttons{
+        margin-inline: auto;
+        width: 190px;
+    }
+    .buttons button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        margin: 5px;
+        background-color: black;
+        color: #ccc;
+        border-radius: 6px;
+    }
+    
+}
